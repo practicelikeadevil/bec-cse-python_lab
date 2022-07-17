@@ -1,0 +1,6 @@
+list1=list()
+string=input("enter a string:")
+list1=string.split()
+print(list1)
+long_wrd=max(list1,key=len)
+print("longest word in given string is:",long_wrd)
